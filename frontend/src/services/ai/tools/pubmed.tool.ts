@@ -11,7 +11,7 @@ export const pubMedToolDeclaration: FunctionDeclaration = {
     properties: {
       query: {
         type: Type.STRING,
-        description: "Keywords to search for in the PubMed database (e.g., 'IBS low-FODMAP efficacy', 'Magnesium citrate constipation safety').",
+        description: "Keywords to search for is medical related.",
       },
     },
     required: ["query"],
