@@ -1,0 +1,647 @@
+{
+  "patient_id": "PT-IM-2024-001",
+  "demographics": {
+    "name": "James Thompson",
+    "date_of_birth": "1968-08-22",
+    "age": 56,
+    "sex": "Male",
+    "gender": "Male",
+    "race": "African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "occupation": "IT Manager",
+    "insurance": "Aetna HMO",
+    "mrn": "MRN-88234567"
+  },
+  "contact": {
+    "phone": "(555) 789-4561",
+    "email": "james.thompson@email.com",
+    "address": "567 Maple Avenue, Chicago, IL 60614",
+    "emergency_contact": "Linda Thompson (Wife) - (555) 789-4562"
+  },
+  "medical_history": {
+    "chief_complaint": "Routine physical, blood pressure check",
+    "diagnoses": [
+      "Hypertension",
+      "Type 2 Diabetes Mellitus",
+      "Hyperlipidemia",
+      "Obesity"
+    ],
+    "allergies": ["NKDA (No Known Drug Allergies)"],
+    "chronic_conditions": [
+      "Essential Hypertension - diagnosed 2021",
+      "Type 2 Diabetes Mellitus - diagnosed 2023",
+      "Hyperlipidemia - diagnosed 2021",
+      "Obesity (BMI 32.4)"
+    ],
+    "past_surgical_history": [
+      "Knee arthroscopy - left (2018)"
+    ],
+    "family_history": {
+      "father": "MI at age 62, died age 70 (stroke), HTN, DM2",
+      "mother": "Living, age 82, HTN, osteoarthritis",
+      "siblings": "Sister (age 52) - HTN; Brother (age 58) - DM2, CAD s/p stent"
+    },
+    "social_history": {
+      "smoking": "Former smoker - quit 2020 (20 pack-year history)",
+      "alcohol": "Moderate - 2-3 beers on weekends",
+      "exercise": "Sedentary job, minimal exercise",
+      "diet": "High carb, fast food 3-4x/week, large portions",
+      "stress_level": "Moderate - work deadlines, financial stress",
+      "sleep": "6-7 hours/night, occasional snoring"
+    }
+  },
+  "visits": [
+    {
+      "visit_number": 1,
+      "date": "2021-09-15",
+      "visit_type": "Annual Physical / Establish Care",
+      "provider": "Dr. Michael Patterson, MD (Internal Medicine)",
+      "chief_complaint": "Annual physical exam, establishing new PCP after relocation",
+      "hpi": "56 yo AAM presents for annual wellness visit. Recently moved to Chicago for work. Generally feels well. Notes occasional headaches, some fatigue. Wife encouraged visit due to family history of heart disease. Last physical 3 years ago. Takes no medications. Denies chest pain, SOB, edema.",
+      "vitals": {
+        "bp": "152/94 mmHg (repeated: 148/92 mmHg)",
+        "hr": "78 bpm",
+        "temp": "98.2°F",
+        "rr": "16/min",
+        "bmi": "31.2",
+        "weight": "218 lbs",
+        "height": "5'11\"",
+        "waist_circumference": "42 inches"
+      },
+      "physical_exam": {
+        "general": "Well-appearing, overweight AAM in NAD",
+        "heent": "PERRL, EOMI, fundoscopic exam - mild AV nicking",
+        "cardiovascular": "RRR, no murmurs, rubs, or gallops. Normal S1/S2. No JVD.",
+        "respiratory": "CTAB, no wheezes/rales/rhonchi",
+        "abdomen": "Obese, soft, non-tender, +BS, no hepatosplenomegaly",
+        "extremities": "No edema, pulses 2+ bilaterally",
+        "neuro": "Alert, oriented x3, CN II-XII intact, strength 5/5 throughout"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Hypertension, stage 2 (new diagnosis)",
+          "2. Obesity (BMI 31.2)",
+          "3. Tobacco use disorder, in remission",
+          "4. Cardiovascular risk assessment needed"
+        ],
+        "orders": [
+          "CBC, CMP",
+          "Lipid panel (fasting)",
+          "HbA1c, fasting glucose",
+          "TSH",
+          "Urinalysis",
+          "EKG (in office)",
+          "10-year ASCVD risk calculation"
+        ],
+        "medications_started": [
+          "Lisinopril 10mg daily",
+          "Aspirin 81mg daily (for primary prevention given risk factors)"
+        ],
+        "counseling": [
+          "Discussed hypertension - explained BP goals (<130/80)",
+          "Lifestyle modifications: DASH diet, reduce sodium <2300mg/day",
+          "Weight loss goal: 10-15 lbs over 6 months",
+          "Exercise: 150 min/week moderate activity",
+          "Smoking cessation - praised for quitting, reinforced importance",
+          "Home BP monitoring - provided log"
+        ],
+        "preventive_care": [
+          "Flu vaccine given today",
+          "Pneumococcal vaccine (PPSV23) given",
+          "Colonoscopy screening discussed - last done 2016, repeat due 2026",
+          "Lipid screening, diabetes screening ordered"
+        ],
+        "follow_up": "2 weeks - BP recheck and lab review"
+      },
+      "ekg_results": {
+        "interpretation": "Normal sinus rhythm, rate 76, normal axis, no ST-T wave changes, no LVH"
+      }
+    },
+    {
+      "visit_number": 2,
+      "date": "2021-10-01",
+      "visit_type": "Follow-up - Lab Review, BP Check",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for lab review and BP recheck. Home BP readings averaging 142-148/88-94. Started DASH diet, reduced salt. Has not started exercise program yet. Feels well, no side effects from lisinopril.",
+      "vitals": {
+        "bp": "144/88 mmHg",
+        "hr": "74 bpm",
+        "weight": "216 lbs"
+      },
+      "labs_reviewed": {
+        "cbc": "WNL - WBC 7.2, Hgb 14.8, Plt 268",
+        "cmp": "Normal except: Creatinine 1.1 (baseline), eGFR 78 (mildly reduced)",
+        "lipid_panel": "Total chol 242, LDL 162, HDL 38, Triglycerides 210",
+        "hba1c": "5.9% (prediabetes range)",
+        "fasting_glucose": "108 mg/dL (prediabetes)",
+        "tsh": "2.4 mIU/L (normal)",
+        "urinalysis": "Negative for protein, no microalbuminuria"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Hypertension - uncontrolled on lisinopril 10mg",
+          "2. Hyperlipidemia (LDL 162, HDL low, TG elevated)",
+          "3. Prediabetes (HbA1c 5.9%, FBG 108)",
+          "4. Obesity",
+          "5. 10-year ASCVD risk: 18.2% (HIGH RISK)"
+        ],
+        "plan": [
+          "Increase lisinopril to 20mg daily",
+          "Start atorvastatin 40mg nightly (high-intensity statin for ASCVD >10%)",
+          "Prediabetes counseling - diabetes prevention program discussed",
+          "Goal: Lose 5-7% body weight (15 lbs) to prevent diabetes progression",
+          "Repeat lipids and HbA1c in 3 months",
+          "Continue home BP monitoring",
+          "Emphasize dietary changes and physical activity"
+        ],
+        "medications_adjusted": [
+          "Lisinopril increased to 20mg daily",
+          "Atorvastatin 40mg nightly - STARTED"
+        ],
+        "education": "Discussed cardiovascular risk - combination of HTN, high cholesterol, prediabetes, family history puts him at high risk. Importance of medication adherence and lifestyle changes emphasized.",
+        "follow_up": "6 weeks - BP check, medication tolerance"
+      }
+    },
+    {
+      "visit_number": 3,
+      "date": "2021-11-15",
+      "visit_type": "Follow-up - BP Check",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for BP check. Home readings improved, averaging 134-138/82-86. No side effects from medications. Started walking 20 min x 3-4 days/week. Diet improved but still struggling with portion control. No muscle pain from statin.",
+      "vitals": {
+        "bp": "136/84 mmHg",
+        "hr": "72 bpm",
+        "weight": "214 lbs (lost 4 lbs)"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Hypertension - improved but not at goal",
+          "2. Hyperlipidemia - on statin therapy",
+          "3. Prediabetes",
+          "4. Obesity - trending in right direction"
+        ],
+        "plan": [
+          "BP improved but still slightly above goal (<130/80)",
+          "Add hydrochlorothiazide (HCTZ) 12.5mg daily",
+          "Continue atorvastatin, lisinopril, aspirin",
+          "Praised for weight loss and exercise initiation",
+          "Encouraged to increase exercise to 30 min x 5 days/week",
+          "Consider referral to dietitian if difficulty with weight loss continues"
+        ],
+        "medications_added": [
+          "Hydrochlorothiazide 12.5mg daily"
+        ],
+        "follow_up": "3 months - lab recheck (lipids, HbA1c), BP assessment"
+      }
+    },
+    {
+      "visit_number": 4,
+      "date": "2022-02-18",
+      "visit_type": "Follow-up - Lab Review",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for lab review. Home BP readings at goal, averaging 128-132/78-82. Feeling well. Exercise routine maintained. Weight stable. No complaints.",
+      "vitals": {
+        "bp": "128/80 mmHg",
+        "hr": "70 bpm",
+        "weight": "212 lbs"
+      },
+      "labs_reviewed": {
+        "lipid_panel": "Total chol 178, LDL 98, HDL 42, Triglycerides 190",
+        "hba1c": "6.0%",
+        "fasting_glucose": "112 mg/dL",
+        "cmp": "Normal, Cr 1.1, eGFR 78",
+        "alt": "32 (normal - monitoring for statin hepatotoxicity)",
+        "cpk": "148 (normal - monitoring for statin myopathy)"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Hypertension - well-controlled on triple therapy",
+          "2. Hyperlipidemia - improved on statin (LDL reduced from 162 to 98)",
+          "3. Prediabetes - borderline progression (HbA1c 6.0%, FBG 112)"
+        ],
+        "plan": [
+          "BP at goal - continue current regimen",
+          "LDL at goal (<100 for high ASCVD risk) - continue atorvastatin 40mg",
+          "HbA1c trending up (5.9% → 6.0%) - intensify diabetes prevention efforts",
+          "Weight loss stalled - referred to registered dietitian (nutrition counseling)",
+          "Consider metformin for diabetes prevention if HbA1c continues to rise",
+          "Repeat HbA1c in 6 months"
+        ],
+        "referrals": [
+          "Registered Dietitian - medical nutrition therapy for prediabetes and weight management"
+        ],
+        "follow_up": "6 months - annual visit, repeat HbA1c"
+      }
+    },
+    {
+      "visit_number": 5,
+      "date": "2022-08-25",
+      "visit_type": "Annual Physical",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Annual wellness visit. Generally feeling well. BP controlled on medications. Saw dietitian 2x - made some progress with diet. Exercise routine maintained but hasn't lost additional weight. Wife concerned about increased thirst and urination frequency over past 2 months. Pt attributes to drinking more water.",
+      "vitals": {
+        "bp": "130/82 mmHg",
+        "hr": "76 bpm",
+        "weight": "215 lbs (gained 3 lbs since Feb)",
+        "bmi": "31.5"
+      },
+      "physical_exam": {
+        "general": "Well-appearing, overweight AAM",
+        "cardiovascular": "RRR, no murmurs",
+        "respiratory": "CTAB",
+        "abdomen": "Obese, soft, non-tender",
+        "extremities": "No edema",
+        "skin": "Examined - no acanthosis nigricans noted",
+        "feet": "Monofilament exam - intact sensation bilaterally"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Hypertension - controlled",
+          "2. Hyperlipidemia - controlled",
+          "3. Type 2 Diabetes Mellitus - NEWLY DIAGNOSED based on symptoms and anticipated labs",
+          "4. Obesity"
+        ],
+        "orders": [
+          "HbA1c, fasting glucose (STAT - symptoms concerning for DM)",
+          "CMP (renal function, electrolytes)",
+          "Lipid panel",
+          "Urinalysis with microalbumin/creatinine ratio",
+          "CBC"
+        ],
+        "plan": [
+          "Polyuria/polydipsia concerning for diabetes - check labs today",
+          "Will call with results and likely start metformin",
+          "Continue current BP and cholesterol medications",
+          "If diabetes confirmed: referral to diabetes education, ophthalmology for diabetic retinal exam",
+          "Foot care education"
+        ],
+        "preventive_care": [
+          "Flu vaccine given",
+          "Tdap booster given (last 2011)"
+        ],
+        "follow_up": "Call with labs, then office visit in 1-2 weeks"
+      }
+    },
+    {
+      "visit_number": 6,
+      "date": "2022-09-08",
+      "visit_type": "Follow-up - New Diabetes Diagnosis",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns after labs confirmed diabetes. HbA1c 7.8%, FBG 178. Pt shocked but not entirely surprised given family history. Willing to start treatment. Concerned about complications. Asking many questions about prognosis.",
+      "vitals": {
+        "bp": "132/80 mmHg",
+        "hr": "74 bpm",
+        "weight": "215 lbs"
+      },
+      "labs_reviewed": {
+        "hba1c": "7.8% (DIAGNOSTIC FOR DIABETES)",
+        "fasting_glucose": "178 mg/dL",
+        "cmp": "Normal, Cr 1.1, eGFR 78",
+        "urine_microalbumin": "45 mg/g (early diabetic nephropathy - abnormal >30)",
+        "lipid_panel": "Total 182, LDL 102, HDL 40, TG 200",
+        "cbc": "WNL"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Type 2 Diabetes Mellitus - NEWLY DIAGNOSED (HbA1c 7.8%)",
+          "2. Diabetic kidney disease, early stage (microalbuminuria present)",
+          "3. Hypertension - controlled (even more critical now with diabetes)",
+          "4. Hyperlipidemia - on statin (LDL goal now <70 given diabetes)",
+          "5. Obesity"
+        ],
+        "plan": [
+          "Start metformin 500mg BID with meals (will titrate up)",
+          "Home glucose monitoring - fasting and 2-hour post-prandial",
+          "HbA1c goal <7%",
+          "BP goal <130/80 (diabetes present)",
+          "LDL goal <70 (diabetes = ASCVD equivalent) - increase atorvastatin to 80mg",
+          "ACE inhibitor (lisinopril) excellent for diabetic nephropathy - continue",
+          "Annual microalbumin monitoring"
+        ],
+        "medications_started": [
+          "Metformin 500mg BID (to be increased to 1000mg BID after 2 weeks if tolerated)"
+        ],
+        "medications_adjusted": [
+          "Atorvastatin increased to 80mg nightly"
+        ],
+        "referrals": [
+          "Diabetes Self-Management Education (DSME) program",
+          "Ophthalmology - dilated diabetic retinal exam",
+          "Podiatry - diabetic foot care"
+        ],
+        "patient_education": [
+          "Explained diabetes pathophysiology",
+          "Importance of glycemic control to prevent complications",
+          "Hypoglycemia awareness and treatment",
+          "Sick day management",
+          "Foot care - daily inspection",
+          "Annual eye exams mandatory",
+          "Dietary modifications - carbohydrate counting"
+        ],
+        "follow_up": "2 weeks - metformin tolerance check; then monthly until HbA1c at goal"
+      }
+    },
+    {
+      "visit_number": 7,
+      "date": "2022-10-20",
+      "visit_type": "Follow-up - Diabetes Management",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for diabetes follow-up. Tolerating metformin well after initial GI upset - now on 1000mg BID. Checking blood sugars regularly - fasting 140-165, post-prandial 180-220. Completed DSME program - very helpful. Saw ophthalmology - mild NPDR noted (non-proliferative diabetic retinopathy). Trying to adhere to diabetic diet but finds it challenging. Thirst improved.",
+      "vitals": {
+        "bp": "128/78 mmHg",
+        "hr": "72 bpm",
+        "weight": "213 lbs (lost 2 lbs)"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Type 2 DM - inadequately controlled (home readings elevated)",
+          "2. Mild non-proliferative diabetic retinopathy",
+          "3. Diabetic kidney disease (microalbuminuria)",
+          "4. Hypertension - controlled",
+          "5. Hyperlipidemia - on therapy"
+        ],
+        "plan": [
+          "Blood sugars still above target (goal fasting <130, post-meal <180)",
+          "Increase metformin to maximum dose: 1000mg with breakfast, 1000mg with dinner",
+          "Check HbA1c in 6-8 weeks",
+          "If HbA1c not improved, will need to add second agent (likely GLP-1 RA or SGLT2i)",
+          "Continue aggressive BP and lipid control",
+          "Ophthalmology follow-up in 6-12 months per their recommendation"
+        ],
+        "follow_up": "6 weeks - HbA1c recheck, glucose review"
+      }
+    },
+    {
+      "visit_number": 8,
+      "date": "2022-12-08",
+      "visit_type": "Follow-up - HbA1c Recheck",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for HbA1c check. Home glucose logs show improvement: fasting 125-145, post-prandial 160-190. Weight down 4 lbs. Exercise increased to 5 days/week. Diet adherence better. No hypoglycemic episodes. No medication side effects.",
+      "vitals": {
+        "bp": "126/76 mmHg",
+        "hr": "70 bpm",
+        "weight": "209 lbs (6 lbs down from Sept)"
+      },
+      "labs_reviewed": {
+        "hba1c": "7.2% (improved from 7.8%, but not at goal <7%)",
+        "fasting_glucose": "142 mg/dL",
+        "cmp": "Normal, Cr 1.0, eGFR 82 (slight improvement)"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Type 2 DM - improved but not at goal (HbA1c 7.2%)",
+          "2. Diabetic microvascular complications (retinopathy, nephropathy)",
+          "3. Hypertension, hyperlipidemia - controlled"
+        ],
+        "plan": [
+          "HbA1c improved (7.8% → 7.2%) but not at goal <7%",
+          "Need additional medication",
+          "Discussed options: DPP-4 inhibitor, GLP-1 RA, SGLT2i, insulin",
+          "Given kidney disease, chose SGLT2 inhibitor for renal protective effects",
+          "Start empagliflozin (Jardiance) 10mg daily",
+          "Educated about genital yeast infections, UTI risk, euglycemic DKA (rare)",
+          "Continue metformin 1000mg BID",
+          "Repeat HbA1c in 3 months"
+        ],
+        "medications_added": [
+          "Empagliflozin (Jardiance) 10mg daily"
+        ],
+        "counseling": "Explained SGLT2 inhibitor mechanism - helps kidneys excrete glucose, promotes weight loss, protects kidneys and heart. Important to stay well-hydrated.",
+        "follow_up": "3 months - HbA1c recheck, annual labs"
+      }
+    },
+    {
+      "visit_number": 9,
+      "date": "2023-03-15",
+      "visit_type": "Follow-up - Comprehensive",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for comprehensive follow-up. Feeling very well. Glucose control much better - fasting 110-125, post-prandial 140-165. Energy improved. Weight down. No medication side effects. Exercising regularly. Diet adherence good.",
+      "vitals": {
+        "bp": "124/76 mmHg",
+        "hr": "68 bpm",
+        "weight": "202 lbs (13 lbs down from diagnosis!)",
+        "bmi": "29.6"
+      },
+      "labs_reviewed": {
+        "hba1c": "6.7% (AT GOAL! <7%)",
+        "fasting_glucose": "118 mg/dL",
+        "cmp": "Normal, Cr 1.0, eGFR 84",
+        "lipid_panel": "Total 156, LDL 68 (at goal!), HDL 44, TG 165",
+        "urine_microalbumin": "38 mg/g (still elevated but stable)",
+        "alt": "28 (normal)",
+        "tsh": "2.1 (normal)"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Type 2 DM - WELL-CONTROLLED (HbA1c 6.7%)",
+          "2. Diabetic retinopathy, nephropathy - stable",
+          "3. Hypertension - excellent control",
+          "4. Hyperlipidemia - at goal",
+          "5. Obesity - improving (lost 13 lbs, BMI decreased from 31.5 to 29.6)"
+        ],
+        "plan": [
+          "Excellent progress! HbA1c at goal, LDL at goal, BP controlled, weight loss achieved",
+          "Continue all current medications",
+          "Maintain current lifestyle modifications",
+          "Monitor HbA1c every 6 months while stable",
+          "Continue annual diabetic eye exams, annual kidney monitoring",
+          "Discussed potential for further weight loss - close to overweight (not obese) category"
+        ],
+        "medications_current": [
+          "Metformin 1000mg BID",
+          "Empagliflozin 10mg daily",
+          "Lisinopril 20mg daily",
+          "HCTZ 12.5mg daily",
+          "Atorvastatin 80mg nightly",
+          "Aspirin 81mg daily"
+        ],
+        "patient_education": "Congratulated patient on excellent lifestyle changes and medication adherence. Explained importance of maintaining these habits long-term. Discussed diabetes as chronic condition requiring ongoing management.",
+        "follow_up": "6 months - routine diabetes follow-up, HbA1c recheck"
+      }
+    },
+    {
+      "visit_number": 10,
+      "date": "2023-09-20",
+      "visit_type": "6-Month Diabetes Follow-up",
+      "provider": "Dr. Michael Patterson, MD",
+      "subjective": "Returns for routine diabetes follow-up. Continues to do well. Blood sugars stable - fasting 105-120, post-prandial 135-160. Weight maintained. Exercise routine established - walks 5 days/week, joined gym. No new complaints. Recent eye exam - stable mild NPDR. Podiatry visit - no foot issues.",
+      "vitals": {
+        "bp": "122/74 mmHg",
+        "hr": "66 bpm",
+        "weight": "199 lbs (3 more lbs lost)",
+        "bmi": "29.2"
+      },
+      "labs_reviewed": {
+        "hba1c": "6.5% (EXCELLENT - maintained control)",
+        "fasting_glucose": "114 mg/dL",
+        "cmp": "Normal, Cr 0.9 (improved!), eGFR 92 (IMPROVED)",
+        "urine_microalbumin": "28 mg/g (now in normal range! <30)"
+      },
+      "assessment_plan": {
+        "diagnoses": [
+          "1. Type 2 DM - EXCELLENT CONTROL (HbA1c 6.5%)",
+          "2. History of diabetic nephropathy - RESOLVED (microalbumin normalized)",
+          "3. Diabetic retinopathy - stable",
+          "4. Hypertension - excellent control",
+          "5. Hyperlipidemia - controlled",
+          "6. Overweight (BMI 29.2, was 31.5 at diagnosis)"
+        ],
+        "plan": [
+          "Outstanding diabetes management - HbA1c 6.5%, kidney function improved, microalbumin normalized",
+          "Lost 16 lbs total since diagnosis, nearly to normal BMI",
+          "Continue all medications - current regimen very effective",
+          "Discussed long-term outlook - with continued good control, risk of complications very low",
+          "Next HbA1c in 6 months",
+          "Continue annual comprehensive diabetes care (eyes, feet, kidneys)",
+          "Updated immunizations - flu vaccine given"
+        ],
+        "quality_metrics_met": [
+          "✓ HbA1c <7%",
+          "✓ BP <130/80",
+          "✓ LDL <70",
+          "✓ On ACE inhibitor",
+          "✓ On statin",
+          "✓ Annual eye exam completed",
+          "✓ Annual foot exam completed",
+          "✓ Kidney monitoring completed"
+        ],
+        "counseling": "Praised patient for exceptional commitment to health. Discussed that this is a model case of how diabetes can be successfully managed with combination of medications and lifestyle changes. Encouraged to maintain current habits.",
+        "follow_up": "6 months - routine follow-up, annual physical"
+      }
+    }
+  ],
+  "current_medications": [
+    {
+      "name": "Metformin",
+      "dose": "1000mg",
+      "frequency": "Twice daily with meals",
+      "indication": "Type 2 Diabetes Mellitus",
+      "start_date": "2022-09-08"
+    },
+    {
+      "name": "Empagliflozin (Jardiance)",
+      "dose": "10mg",
+      "frequency": "Once daily",
+      "indication": "Type 2 Diabetes Mellitus, diabetic nephropathy",
+      "start_date": "2022-12-08"
+    },
+    {
+      "name": "Lisinopril",
+      "dose": "20mg",
+      "frequency": "Once daily",
+      "indication": "Hypertension, diabetic nephropathy",
+      "start_date": "2021-09-15"
+    },
+    {
+      "name": "Hydrochlorothiazide (HCTZ)",
+      "dose": "12.5mg",
+      "frequency": "Once daily",
+      "indication": "Hypertension",
+      "start_date": "2021-11-15"
+    },
+    {
+      "name": "Atorvastatin",
+      "dose": "80mg",
+      "frequency": "Once daily at bedtime",
+      "indication": "Hyperlipidemia, ASCVD risk reduction, diabetes",
+      "start_date": "2021-10-01"
+    },
+    {
+      "name": "Aspirin",
+      "dose": "81mg",
+      "frequency": "Once daily",
+      "indication": "Primary cardiovascular prevention",
+      "start_date": "2021-09-15"
+    }
+  ],
+  "problem_list": [
+    {
+      "problem": "Type 2 Diabetes Mellitus",
+      "icd10": "E11.9",
+      "status": "Active - well-controlled",
+      "onset": "September 2022",
+      "complications": "Mild NPDR (non-proliferative diabetic retinopathy), history of microalbuminuria (now resolved)"
+    },
+    {
+      "problem": "Essential Hypertension",
+      "icd10": "I10",
+      "status": "Active - well-controlled",
+      "onset": "September 2021"
+    },
+    {
+      "problem": "Hyperlipidemia",
+      "icd10": "E78.5",
+      "status": "Active - well-controlled on statin",
+      "onset": "October 2021"
+    },
+    {
+      "problem": "Overweight (BMI 29.2)",
+      "icd10": "E66.3",
+      "status": "Active - improving",
+      "note": "Was obese (BMI 31.5) at diagnosis, lost 16 lbs"
+    },
+    {
+      "problem": "Tobacco use disorder",
+      "icd10": "F17.201",
+      "status": "In remission - quit 2020",
+      "history": "20 pack-year history"
+    },
+    {
+      "problem": "Diabetic retinopathy, mild NPDR",
+      "icd10": "E11.329",
+      "status": "Active - stable on monitoring",
+      "onset": "October 2022"
+    },
+    {
+      "problem": "History of diabetic kidney disease",
+      "icd10": "E11.21",
+      "status": "Resolved - microalbuminuria normalized",
+      "onset": "September 2022",
+      "resolution": "September 2023"
+    }
+  ],
+  "preventive_care_status": {
+    "colonoscopy": "Last: 2016, Next due: 2026",
+    "diabetic_eye_exam": "Last: March 2023, Next due: March 2024",
+    "diabetic_foot_exam": "Last: September 2023, Next due: September 2024",
+    "immunizations": {
+      "flu_vaccine": "Up to date - Sept 2023",
+      "pneumococcal": "PPSV23 given Sept 2021, PCV20 due at age 65",
+      "tdap": "Up to date - Aug 2022"
+    }
+  },
+  "notes": {
+    "clinical_pearls": [
+      "Classic progression from prediabetes to diabetes with polyuria/polydipsia symptoms",
+      "Strong family history of diabetes, cardiovascular disease - high-risk patient",
+      "African American male with HTN and DM - higher risk for kidney disease",
+      "Excellent example of successful chronic disease management with medications + lifestyle",
+      "Multi-drug regimen necessary: metformin + SGLT2i for diabetes, ACE + thiazide for BP, high-intensity statin for CV risk",
+      "SGLT2 inhibitor choice driven by renal protective effects given early nephropathy",
+      "Microalbuminuria normalized with good glucose control and ACE inhibitor - demonstrates reversibility of early diabetic kidney disease"
+    ],
+    "management_success_factors": [
+      "Early aggressive treatment",
+      "Patient education through DSME program",
+      "Regular monitoring and medication adjustments",
+      "Lifestyle modifications (exercise, diet, weight loss)",
+      "Excellent medication adherence",
+      "Strong social support (wife's encouragement)"
+    ],
+    "risk_factors": "High 10-year ASCVD risk (18.2%), family history of premature CAD, African American race (higher DM/HTN complications), former smoker"
+  },
+  "ai_demo_queries": {
+    "query_examples": [
+      "What were the patient's HbA1c trends over time?",
+      "List all medications the patient is currently taking and their indications",
+      "When was diabetes diagnosed and what were the presenting symptoms?",
+      "Has the patient achieved their blood pressure goals?",
+      "What diabetic complications has this patient developed?",
+      "How much weight has the patient lost since starting treatment?",
+      "What preventive care screenings are due for this patient?",
+      "Calculate the patient's 10-year ASCVD risk",
+      "Is the patient meeting all diabetes quality metrics?",
+      "What is the patient's family history of cardiovascular disease?"
+    ]
+  }
+}
